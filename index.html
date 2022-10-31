@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="bg-zinc-100 antialiased text-zinc-800 flex justify-center">
+    <div class="max-w-2xl w-full mt-12">
+        <div class="bg-white p-6 px-8 rounded-3xl flex gap-x-4 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-search">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" placeholder="Search for a location..." class="w-full" />
+            <div class="bg-zinc-100 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-crosshair">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="22" y1="12" x2="18" y2="12"></line>
+                    <line x1="6" y1="12" x2="2" y2="12"></line>
+                    <line x1="12" y1="6" x2="12" y2="2"></line>
+                    <line x1="12" y1="22" x2="12" y2="18"></line>
+                </svg>
+            </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl mt-6">
+            <div class="flex justify-between">
+                <div class="flex gap-x-2 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-map-pin">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <div class="font-medium text-lg">Morgantown</div>
+                </div>
+                <div>
+                    Today 12:30PM
+                </div>
+            </div>
+            <div class="flex mt-10">
+                <div class="flex flex-1 gap-x-8 justify-center items-center">
+                    <div>
+                        <img src="img/partly-cloudy.png" class="w-32">
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="text-8xl">14&deg;</div>
+                        <div class="font-medium text-xl text-zinc-500">59&deg; / -3&deg;</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex mt-12 gap-x-8 justify-center">
+                <div class="flex items-center gap-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-droplet text-zinc-300">
+                        <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                    </svg> Humidity: 99%
+                </div>
+                <div class="flex items-center gap-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-wind">
+                        <path
+                            d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2">
+                        </path>
+                    </svg>Wind: 99mph
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-x-2 mt-6">
+            <div class="flex-1 bg-white rounded-xl p-4">
+                <div class="text-center font-medium">Sun</div>
+                <img src="img/sun.png" class="w-12 mx-auto mt-2">
+                <div class="text-center mt-2 text-zinc-500">
+                    <div>Hi: 59&deg;</div>
+                    <div>Lo: -3&deg;</div>
+                </div>
+            </div>
+            <div class="flex-1 bg-white rounded-xl p-4">
+                <div class="text-center font-medium">Mon</div>
+                <img src="img/cloud.png" class="w-12 mx-auto mt-2">
+                <div class="text-center mt-2 text-zinc-500">
+                    <div>Hi: 59&deg;</div>
+                    <div>Lo: -3&deg;</div>
+                </div>
+            </div>
+            <div class="flex-1 bg-white rounded-xl p-4">
+                <div class="text-center font-medium">Tue</div>
+                <img src="img/rainy.png" class="w-12 mx-auto mt-2">
+                <div class="text-center mt-2 text-zinc-500">
+                    <div>Hi: 59&deg;</div>
+                    <div>Lo: -3&deg;</div>
+                </div>
+            </div>
+            <div class="flex-1 bg-white rounded-xl p-4">
+                <div class="text-center font-medium">Wed</div>
+                <img src="img/windy.png" class="w-12 mx-auto mt-2">
+                <div class="text-center mt-2 text-zinc-500">
+                    <div>Hi: 59&deg;</div>
+                    <div>Lo: -3&deg;</div>
+                </div>
+            </div>
+            <div class="flex-1 bg-white rounded-xl p-4">
+                <div class="text-center font-medium">Thu</div>
+                <img src="img/snowy.png" class="w-12 mx-auto mt-2">
+                <div class="text-center mt-2 text-zinc-500">
+                    <div>Hi: 59&deg;</div>
+                    <div>Lo: -3&deg;</div>
+                </div>
+            </div>
+        </div>
+        <p class="mt-6 text-zinc-400">&copy; 2022. Coded by Tara Cook</p>
+    </div>
+</body>
+
+</html>
